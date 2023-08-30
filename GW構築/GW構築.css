@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #1a32ab;
+  text-align: center;
+}
+/**ページに背景画像を挿入するcss*/
+.example2 th {
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: #486d46; /* 背景色 */
+  background-image: url("ユニコーン.jpg"); /* 画像 */
+  background-size: cover; /* 全画面 */
+  background-attachment: fixed; /*固定 */
+  background-position: center center; /* 縦横中央 */
+}
+
+table {
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+table,
+th,
+td {
+  border: none;
+}
+
+th {
+  padding: 5px;
+  text-align: left;
+}
+
+td {
+  padding: 5px;
+}
+Run Pen
+/**文字色を変更するcss*/
+.作りたいデッキ {
+  color: rgb(0, 7, 14);
+  text-align: center;
+}
+
+/**リンクがある文字の色を変えるcss*/
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
